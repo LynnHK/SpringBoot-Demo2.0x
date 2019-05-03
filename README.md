@@ -1,7 +1,7 @@
 # SpringBoot-Demo2.0x  
 SpringBoot Demo Project, joins other functions need in real big company  
   
-集成功能包括： 
+集成功能包括：  
 1.Maven管理工具  
 2.Mysql数据库（druid数据源）  
 3.Mybatis映射  
