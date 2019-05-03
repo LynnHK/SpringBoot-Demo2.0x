@@ -11,7 +11,7 @@ SpringBoot Demo Project, joins other functions need in real big company
 7.定时任务  
 8.多环境配置切换与部署  
 9.Logback日志输出  
-10.Thymeleaf与jsp模板 
+10.Thymeleaf与jsp模板  
 11.自定义异常和全局异常捕捉  
 12.自定义过滤器、拦截器（api入参出参自动记录、耗时统计、日志追踪等）  
 13.文件上传与下载  
