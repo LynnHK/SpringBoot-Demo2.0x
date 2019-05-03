@@ -14,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 public class MessageDelayQueue {
 	
 	@Autowired
-    private AmqpTemplate rabbitTemplate;
+	private AmqpTemplate rabbitTemplate;
 	
 	public void send(DelayMission mission) {
 		log.info("Send to delay queue: mission={}", mission);

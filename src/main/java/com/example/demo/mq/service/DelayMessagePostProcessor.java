@@ -11,9 +11,9 @@ public class DelayMessagePostProcessor implements MessagePostProcessor {
 	 */
 	private long ttl = 0L;
 	 
-    public DelayMessagePostProcessor(long ttl) {
-        this.ttl = ttl;
-    }
+	public DelayMessagePostProcessor(long ttl) {
+		this.ttl = ttl;
+	}
 
 	@Override
 	public Message postProcessMessage(Message message) throws AmqpException {

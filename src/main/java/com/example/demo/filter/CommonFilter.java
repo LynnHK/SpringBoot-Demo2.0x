@@ -42,14 +42,14 @@ public class CommonFilter implements Filter {
 		}
 		ResponseWrapper responseWrapper = new ResponseWrapper(res);
 		
-        chain.doFilter(req, responseWrapper);
-        
-        // 重新封装response进行响应
-        res.setContentType(responseWrapper.getContentType());
-        for (String name : responseWrapper.getHeaderNames()) {
-        	res.addHeader(name, responseWrapper.getHeader(name));
+		chain.doFilter(req, responseWrapper);
+		
+		// 重新封装response进行响应
+		res.setContentType(responseWrapper.getContentType());
+		for (String name : responseWrapper.getHeaderNames()) {
+			res.addHeader(name, responseWrapper.getHeader(name));
 		}
-        res.getOutputStream().write(responseWrapper.getBodyAsByte());
+		res.getOutputStream().write(responseWrapper.getBodyAsByte());
 	}
 	
 	@Override

@@ -10,7 +10,7 @@ import com.example.demo.config.MQConfig;
 public class MQService {
 
 	@Autowired
-    private AmqpTemplate rabbitTemplate;
+	private AmqpTemplate rabbitTemplate;
 
 	public void send(String message) {
 		this.rabbitTemplate.convertAndSend(MQConfig.MQTEST_QUEUE_NAME, message);

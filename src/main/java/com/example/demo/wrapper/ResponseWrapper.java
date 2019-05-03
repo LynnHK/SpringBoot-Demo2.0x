@@ -18,7 +18,7 @@ public class ResponseWrapper extends HttpServletResponseWrapper {
 	private ByteArrayOutputStream buffer;
 	
 	private ServletOutputStream out;
-    private PrintWriter writer;
+	private PrintWriter writer;
 	
 	public ResponseWrapper(HttpServletResponse response) throws IOException {
 		super(response);
@@ -46,52 +46,52 @@ public class ResponseWrapper extends HttpServletResponseWrapper {
 	}
 	
 	@Override
-    public ServletOutputStream getOutputStream() throws IOException {
-        return out;
-    }
+	public ServletOutputStream getOutputStream() throws IOException {
+		return out;
+	}
 	
 	@Override
-    public PrintWriter getWriter() throws IOException {
-        return writer;
-    }
+	public PrintWriter getWriter() throws IOException {
+		return writer;
+	}
 	
 	@Override
-    public void flushBuffer() throws IOException {
-        if (out != null) {
-            out.flush();
-        }
-        if (writer != null) {
-            writer.flush();
-        }
-    }
+	public void flushBuffer() throws IOException {
+		if (out != null) {
+			out.flush();
+		}
+		if (writer != null) {
+			writer.flush();
+		}
+	}
 	
 	@Override
 	public void reset() {
-	    buffer.reset();
+		buffer.reset();
 	}
 	
 	/**
-     * 获取响应Body
-     * @param request request
-     * @return String
-     */
-    public String getBodyAsString(String charset) {
-        try {
-        	//将out、writer中的数据强制输出到WapperedResponse的buffer里面，否则取不到数据
-        	flushBuffer();
-        	return new String(buffer.toByteArray(), charset);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
-    
-    public byte[] getBodyAsByte() {
-    	 try {
-    		 flushBuffer();
-    		 return buffer.toByteArray();
-	    } catch (IOException e) {
-	        throw new RuntimeException(e);
-	    }
-    }
-    
+	 * 获取响应Body
+	 * @param request request
+	 * @return String
+	 */
+	public String getBodyAsString(String charset) {
+		try {
+			//将out、writer中的数据强制输出到WapperedResponse的buffer里面，否则取不到数据
+			flushBuffer();
+			return new String(buffer.toByteArray(), charset);
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
+	}
+	
+	public byte[] getBodyAsByte() {
+		 try {
+			 flushBuffer();
+			 return buffer.toByteArray();
+		 } catch (IOException e) {
+			 throw new RuntimeException(e);
+		 }
+	}
+	
 }
