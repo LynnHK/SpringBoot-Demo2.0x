@@ -1,13 +1,7 @@
 HELP.md
-<<<<<<< Updated upstream
-/target/  
-/app_logs/  
-/app_temps/  
-=======
 /target/
 /app_logs/
 /app_temps/
->>>>>>> Stashed changes
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
