@@ -1,0 +1,440 @@
+00:14:28.028  [INFO ] CommonFilter.java: [commonFilter] destroy...
+00:14:28.028  [INFO ] StartupInfoLogger.java: Starting DemoApplication on lee with PID 13260 (D:\java\workspace2\springboot-demo\target\classes started by lee in D:\java\workspace2\springboot-demo)
+00:14:28.028  [DEBUG] StartupInfoLogger.java: Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+00:14:28.028  [INFO ] SpringApplication.java: The following profiles are active: dev
+00:14:29.029  [INFO ] CommonFilter.java: [commonFilter] init...
+00:14:31.031  [INFO ] StartupInfoLogger.java: Started DemoApplication in 2.904 seconds (JVM running for 3205.586)
+00:15:05.005 310125B49A6140E969898021CC15358D [INFO ] LogInterceptor.java: GET for '/springboot-demo/swagger-ui.html' start... ip:0:0:0:0:0:0:0:1
+00:15:05.005 310125B49A6140E969898021CC15358D [INFO ] LogInterceptor.java: input params: null
+00:15:05.005 310125B49A6140E969898021CC15358D [INFO ] LogInterceptor.java: output results: 
+00:15:05.005 310125B49A6140E969898021CC15358D [INFO ] LogInterceptor.java: GET for '/springboot-demo/swagger-ui.html' end, cost 7ms
+00:15:05.005 B18A8B1CB511DA54980359847A72E109 [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js' start... ip:0:0:0:0:0:0:0:1
+00:15:05.005 5E242EC89386C82C42EC0916A102602F [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-bundle.js' start... ip:0:0:0:0:0:0:0:1
+00:15:05.005 A825C1CFF86E5535C9DA5EF637C1118D [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/springfox.js' start... ip:0:0:0:0:0:0:0:1
+00:15:05.005 A825C1CFF86E5535C9DA5EF637C1118D [INFO ] LogInterceptor.java: input params: {"v":"2.9.2"}
+00:15:05.005 5E242EC89386C82C42EC0916A102602F [INFO ] LogInterceptor.java: input params: {"v":"2.9.2"}
+00:15:05.005 B18A8B1CB511DA54980359847A72E109 [INFO ] LogInterceptor.java: input params: {"v":"2.9.2"}
+00:15:05.005 B18A8B1CB511DA54980359847A72E109 [INFO ] LogInterceptor.java: output results: 
+00:15:05.005 5E242EC89386C82C42EC0916A102602F [INFO ] LogInterceptor.java: output results: 
+00:15:05.005 A825C1CFF86E5535C9DA5EF637C1118D [INFO ] LogInterceptor.java: output results: 
+00:15:05.005 B18A8B1CB511DA54980359847A72E109 [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js' end, cost 5ms
+00:15:05.005 5E242EC89386C82C42EC0916A102602F [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-bundle.js' end, cost 5ms
+00:15:05.005 A825C1CFF86E5535C9DA5EF637C1118D [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/springfox.js' end, cost 5ms
+00:15:06.006 9219DB37D33F4ADB8D281032669E880B [INFO ] LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/ui' start... ip:0:0:0:0:0:0:0:1
+00:15:06.006 E13D8EB79CB3A0F4BFA5FA9DC99203ED [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/favicon-32x32.png' start... ip:0:0:0:0:0:0:0:1
+00:15:06.006 E13D8EB79CB3A0F4BFA5FA9DC99203ED [INFO ] LogInterceptor.java: input params: {"v":"2.9.2"}
+00:15:06.006 E13D8EB79CB3A0F4BFA5FA9DC99203ED [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/favicon-32x32.png' end, cost 6ms
+00:15:06.006 9219DB37D33F4ADB8D281032669E880B [INFO ] LogInterceptor.java: input params: null
+00:15:06.006 9219DB37D33F4ADB8D281032669E880B [INFO ] LogInterceptor.java: output results: {"deepLinking":true,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"none","filter":false,"operationsSorter":"alpha","showExtensions":false,"tagsSorter":"alpha","validatorUrl":"","apisSorter":"alpha","jsonEditor":false,"showRequestHeaders":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"]}
+00:15:06.006 9219DB37D33F4ADB8D281032669E880B [INFO ] LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/ui' end, cost 38ms
+00:15:06.006 EAC2336873A5E8CBB57126C95CFD6ABE [INFO ] LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/security' start... ip:0:0:0:0:0:0:0:1
+00:15:06.006 EAC2336873A5E8CBB57126C95CFD6ABE [INFO ] LogInterceptor.java: input params: null
+00:15:06.006 EAC2336873A5E8CBB57126C95CFD6ABE [INFO ] LogInterceptor.java: output results: {}
+00:15:06.006 EAC2336873A5E8CBB57126C95CFD6ABE [INFO ] LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/security' end, cost 10ms
+00:15:06.006 D7B990193793A856D920F3301309182D [INFO ] LogInterceptor.java: GET for '/springboot-demo/swagger-resources' start... ip:0:0:0:0:0:0:0:1
+00:15:06.006 D7B990193793A856D920F3301309182D [INFO ] LogInterceptor.java: input params: null
+00:15:06.006 D7B990193793A856D920F3301309182D [INFO ] LogInterceptor.java: output results: [{"name":"default","url":"/v2/api-docs","swaggerVersion":"2.0","location":"/v2/api-docs"}]
+00:15:06.006 D7B990193793A856D920F3301309182D [INFO ] LogInterceptor.java: GET for '/springboot-demo/swagger-resources' end, cost 11ms
+00:15:06.006 29D68B0002BEB5AD0B26D97D3C2BED27 [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2' start... ip:0:0:0:0:0:0:0:1
+00:15:06.006 29D68B0002BEB5AD0B26D97D3C2BED27 [INFO ] LogInterceptor.java: input params: null
+00:15:06.006 533C5020C5015EA9E49C12DD674B4A99 [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2' start... ip:0:0:0:0:0:0:0:1
+00:15:06.006 29D68B0002BEB5AD0B26D97D3C2BED27 [INFO ] LogInterceptor.java: output results: 
+00:15:06.006 533C5020C5015EA9E49C12DD674B4A99 [INFO ] LogInterceptor.java: input params: null
+00:15:06.006 29D68B0002BEB5AD0B26D97D3C2BED27 [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2' end, cost 3ms
+00:15:06.006 533C5020C5015EA9E49C12DD674B4A99 [INFO ] LogInterceptor.java: output results: 
+00:15:06.006 533C5020C5015EA9E49C12DD674B4A99 [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2' end, cost 12ms
+00:15:06.006 EF029113D956A0B3C214981E02487E4F [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2' start... ip:0:0:0:0:0:0:0:1
+00:15:06.006 12974C5929822C770F0CF3B0450517B0 [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2' start... ip:0:0:0:0:0:0:0:1
+00:15:06.006 EF029113D956A0B3C214981E02487E4F [INFO ] LogInterceptor.java: input params: null
+00:15:06.006 12974C5929822C770F0CF3B0450517B0 [INFO ] LogInterceptor.java: input params: null
+00:15:06.006 12974C5929822C770F0CF3B0450517B0 [INFO ] LogInterceptor.java: output results: 
+00:15:06.006 EF029113D956A0B3C214981E02487E4F [INFO ] LogInterceptor.java: output results: 
+00:15:06.006 EF029113D956A0B3C214981E02487E4F [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2' end, cost 3ms
+00:15:06.006 12974C5929822C770F0CF3B0450517B0 [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2' end, cost 3ms
+00:15:06.006 074B870B216C73837D14A51F45A21FB6 [INFO ] LogInterceptor.java: GET for '/springboot-demo/csrf' start... ip:0:0:0:0:0:0:0:1
+00:15:06.006 074B870B216C73837D14A51F45A21FB6 [INFO ] LogInterceptor.java: input params: null
+00:15:06.006 074B870B216C73837D14A51F45A21FB6 [INFO ] LogInterceptor.java: output results: 
+00:15:06.006 074B870B216C73837D14A51F45A21FB6 [INFO ] LogInterceptor.java: GET for '/springboot-demo/csrf' end, cost 3ms
+00:15:06.006 9484318847D03EBB5599A1656CC8B0F8 [INFO ] LogInterceptor.java: GET for '/springboot-demo/error' start... ip:0:0:0:0:0:0:0:1
+00:15:06.006 9484318847D03EBB5599A1656CC8B0F8 [INFO ] LogInterceptor.java: input params: null
+00:15:06.006 9484318847D03EBB5599A1656CC8B0F8 [INFO ] LogInterceptor.java: GET for '/springboot-demo/error' end, cost 4ms
+00:15:27.027 B01F8B9337E1B079939C69DDABEBB018 [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2' start... ip:0:0:0:0:0:0:0:1
+00:15:27.027 B01F8B9337E1B079939C69DDABEBB018 [INFO ] LogInterceptor.java: input params: null
+00:15:27.027 B01F8B9337E1B079939C69DDABEBB018 [INFO ] LogInterceptor.java: output results: 
+00:15:27.027 B01F8B9337E1B079939C69DDABEBB018 [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2' end, cost 3ms
+00:15:29.029 1778834D4AB1C5E0CD1F9FEFF95D5C8F [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2' start... ip:0:0:0:0:0:0:0:1
+00:15:29.029 1778834D4AB1C5E0CD1F9FEFF95D5C8F [INFO ] LogInterceptor.java: input params: null
+00:15:29.029 1778834D4AB1C5E0CD1F9FEFF95D5C8F [INFO ] LogInterceptor.java: output results: 
+00:15:29.029 1778834D4AB1C5E0CD1F9FEFF95D5C8F [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2' end, cost 2ms
+00:15:44.044 CC1CD60D66D67918BB407274366F0F79 [INFO ] LogInterceptor.java: GET for '/springboot-demo/mqtest/m5' start... ip:0:0:0:0:0:0:0:1
+00:15:44.044 CC1CD60D66D67918BB407274366F0F79 [INFO ] LogInterceptor.java: input params: {"name":"lynn"}
+00:15:44.044 CC1CD60D66D67918BB407274366F0F79 [INFO ] MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=3e077ff52e417928e02d7c4cc5f02b27, type=1, delayTime=0, data=UserInfo(id=0, name=lynn0, age=10, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:15:44 CST 2019, createBy=system)
+00:15:44.044 CC1CD60D66D67918BB407274366F0F79 [ERROR] AppExceptionHandler.java: system error: 
+org.springframework.amqp.support.converter.MessageConversionException: failed to convert to serialized Message content
+	at org.springframework.amqp.support.converter.SimpleMessageConverter.createMessage(SimpleMessageConverter.java:151)
+	at org.springframework.amqp.support.converter.AbstractMessageConverter.createMessage(AbstractMessageConverter.java:88)
+	at org.springframework.amqp.support.converter.AbstractMessageConverter.toMessage(AbstractMessageConverter.java:70)
+	at org.springframework.amqp.support.converter.AbstractMessageConverter.toMessage(AbstractMessageConverter.java:58)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertMessageIfNecessary(RabbitTemplate.java:1738)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1098)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1071)
+	at com.example.demo.mq.service.MessageDelayQueue.send(MessageDelayQueue.java:21)
+	at com.example.demo.controller.MQController.m5(MQController.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.example.demo.filter.CommonFilter.doFilter(CommonFilter.java:45)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Could not serialize object of type: class com.example.demo.entity.DelayMission
+	at org.springframework.amqp.utils.SerializationUtils.serialize(SerializationUtils.java:60)
+	at org.springframework.amqp.support.converter.SimpleMessageConverter.createMessage(SimpleMessageConverter.java:148)
+	... 65 common frames omitted
+Caused by: java.io.NotSerializableException: com.example.demo.entity.UserInfo
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.springframework.amqp.utils.SerializationUtils.serialize(SerializationUtils.java:57)
+	... 66 common frames omitted
+00:15:44.044 CC1CD60D66D67918BB407274366F0F79 [INFO ] LogInterceptor.java: output results: {"code":9999,"msg":"An exception has occurred here. Please contact the service provider."}
+00:15:44.044 CC1CD60D66D67918BB407274366F0F79 [INFO ] LogInterceptor.java: GET for '/springboot-demo/mqtest/m5' end, cost 20ms
+00:15:44.044 9158F88569540D02718E458E6F2E5F37 [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2' start... ip:0:0:0:0:0:0:0:1
+00:15:44.044 9158F88569540D02718E458E6F2E5F37 [INFO ] LogInterceptor.java: input params: null
+00:15:44.044 9158F88569540D02718E458E6F2E5F37 [INFO ] LogInterceptor.java: output results: 
+00:15:44.044 9158F88569540D02718E458E6F2E5F37 [INFO ] LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2' end, cost 2ms
+00:17:50.050  [INFO ] CommonFilter.java: [commonFilter] destroy...
+00:17:50.050  [INFO ] StartupInfoLogger.java: Starting DemoApplication on lee with PID 13260 (D:\java\workspace2\springboot-demo\target\classes started by lee in D:\java\workspace2\springboot-demo)
+00:17:50.050  [DEBUG] StartupInfoLogger.java: Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+00:17:50.050  [INFO ] SpringApplication.java: The following profiles are active: dev
+00:17:51.051  [INFO ] CommonFilter.java: [commonFilter] init...
+00:17:52.052  [INFO ] StartupInfoLogger.java: Started DemoApplication in 2.075 seconds (JVM running for 3407.286)
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] LogInterceptor.java: GET for '/springboot-demo/mqtest/m5' start... ip:0:0:0:0:0:0:0:1
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] LogInterceptor.java: input params: {"name":"lynn"}
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=af9129c96c1fe8e34d755ed64d114e9f, type=1, delayTime=0, data=UserInfo(id=0, name=lynn0, age=10, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=c9212e242186dd57b5be5ebe961c2326, type=1, delayTime=10, data=UserInfo(id=1, name=lynn1, age=11, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=8632dbbde571dd0be234d1ca3f9def3b, type=1, delayTime=20, data=UserInfo(id=2, name=lynn2, age=12, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=8c2b555c57f025faa6719ebac6e8c6d5, type=1, delayTime=30, data=UserInfo(id=3, name=lynn3, age=13, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=acc602a3b423ec5d240ca01f702a949e, type=1, delayTime=40, data=UserInfo(id=4, name=lynn4, age=14, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=3efa6ceffa5b087f68731caf410ee278, type=1, delayTime=50, data=UserInfo(id=5, name=lynn5, age=15, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=370757e8dd9e44be31188bd08f6fb755, type=1, delayTime=60, data=UserInfo(id=6, name=lynn6, age=16, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=9b99d7ac0e44545f0df2c28b07cbacff, type=1, delayTime=70, data=UserInfo(id=7, name=lynn7, age=17, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=c190898980fc22bcb0cf4e4bbf9d1b9b, type=1, delayTime=80, data=UserInfo(id=8, name=lynn8, age=18, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=a6ff2e041f13580b1ee224d8851f066e, type=1, delayTime=90, data=UserInfo(id=9, name=lynn9, age=19, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] LogInterceptor.java: output results: {"code":200,"msg":"success"}
+00:17:59.059 5693F474B2BFA2D73535172C7B1AE609 [INFO ] LogInterceptor.java: GET for '/springboot-demo/mqtest/m5' end, cost 29ms
+00:17:59.059  [INFO ] DelayQueueListener1.java: delay queue1 receive: DelayMission(id=af9129c96c1fe8e34d755ed64d114e9f, type=1, delayTime=0, data=UserInfo(id=0, name=lynn0, age=10, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:18:09.009  [INFO ] DelayQueueListener2.java: delay queue2 receive: DelayMission(id=c9212e242186dd57b5be5ebe961c2326, type=1, delayTime=10, data=UserInfo(id=1, name=lynn1, age=11, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:18:19.019  [INFO ] DelayQueueListener1.java: delay queue1 receive: DelayMission(id=8632dbbde571dd0be234d1ca3f9def3b, type=1, delayTime=20, data=UserInfo(id=2, name=lynn2, age=12, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:18:29.029  [INFO ] DelayQueueListener2.java: delay queue2 receive: DelayMission(id=8c2b555c57f025faa6719ebac6e8c6d5, type=1, delayTime=30, data=UserInfo(id=3, name=lynn3, age=13, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:18:39.039  [INFO ] DelayQueueListener1.java: delay queue1 receive: DelayMission(id=acc602a3b423ec5d240ca01f702a949e, type=1, delayTime=40, data=UserInfo(id=4, name=lynn4, age=14, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:18:49.049  [INFO ] DelayQueueListener2.java: delay queue2 receive: DelayMission(id=3efa6ceffa5b087f68731caf410ee278, type=1, delayTime=50, data=UserInfo(id=5, name=lynn5, age=15, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:18:59.059  [INFO ] DelayQueueListener1.java: delay queue1 receive: DelayMission(id=370757e8dd9e44be31188bd08f6fb755, type=1, delayTime=60, data=UserInfo(id=6, name=lynn6, age=16, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:19:09.009  [INFO ] DelayQueueListener2.java: delay queue2 receive: DelayMission(id=9b99d7ac0e44545f0df2c28b07cbacff, type=1, delayTime=70, data=UserInfo(id=7, name=lynn7, age=17, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:19:19.019  [INFO ] DelayQueueListener1.java: delay queue1 receive: DelayMission(id=c190898980fc22bcb0cf4e4bbf9d1b9b, type=1, delayTime=80, data=UserInfo(id=8, name=lynn8, age=18, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:19:29.029  [INFO ] DelayQueueListener2.java: delay queue2 receive: DelayMission(id=a6ff2e041f13580b1ee224d8851f066e, type=1, delayTime=90, data=UserInfo(id=9, name=lynn9, age=19, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 00:17:59 CST 2019, createBy=system)
+00:28:18.018  [INFO ] CommonFilter.java: [commonFilter] destroy...
+00:45:07.007 [INFO ]  StartupInfoLogger.java: Starting DemoApplication on lee with PID 7672 (D:\java\workspace2\springboot-demo\target\classes started by lee in D:\java\workspace2\springboot-demo)
+00:45:07.007 [DEBUG]  StartupInfoLogger.java: Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+00:45:07.007 [INFO ]  SpringApplication.java: The following profiles are active: dev
+00:45:10.010 [INFO ]  CommonFilter.java: [commonFilter] init...
+00:45:12.012 [INFO ]  StartupInfoLogger.java: Started DemoApplication in 5.514 seconds (JVM running for 6.564)
+00:46:24.024 [INFO ] 33E5AA2BD0F6928F LogInterceptor.java: GET for '/springboot-demo/swagger-ui.html' start... ip:0:0:0:0:0:0:0:1
+00:46:24.024 [INFO ] 33E5AA2BD0F6928F LogInterceptor.java: input params: null
+00:46:24.024 [INFO ] 33E5AA2BD0F6928F LogInterceptor.java: output results: 
+00:46:24.024 [INFO ] 33E5AA2BD0F6928F LogInterceptor.java: GET for '/springboot-demo/swagger-ui.html' end, cost 4ms
+00:46:24.024 [INFO ] 8BF5FA3C8E8DFE5B LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-bundle.js' start... ip:0:0:0:0:0:0:0:1
+00:46:24.024 [INFO ] 1BC2E6D604562580 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/springfox.js' start... ip:0:0:0:0:0:0:0:1
+00:46:24.024 [INFO ] AEC6B1F3E38A0D6B LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js' start... ip:0:0:0:0:0:0:0:1
+00:46:24.024 [INFO ] AEC6B1F3E38A0D6B LogInterceptor.java: input params: {"v":"2.9.2"}
+00:46:24.024 [INFO ] 8BF5FA3C8E8DFE5B LogInterceptor.java: input params: {"v":"2.9.2"}
+00:46:24.024 [INFO ] 1BC2E6D604562580 LogInterceptor.java: input params: {"v":"2.9.2"}
+00:46:24.024 [INFO ] 8BF5FA3C8E8DFE5B LogInterceptor.java: output results: 
+00:46:24.024 [INFO ] 1BC2E6D604562580 LogInterceptor.java: output results: 
+00:46:24.024 [INFO ] 1BC2E6D604562580 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/springfox.js' end, cost 63ms
+00:46:24.024 [INFO ] 8BF5FA3C8E8DFE5B LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-bundle.js' end, cost 64ms
+00:46:24.024 [INFO ] AEC6B1F3E38A0D6B LogInterceptor.java: output results: 
+00:46:24.024 [INFO ] AEC6B1F3E38A0D6B LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js' end, cost 63ms
+00:46:24.024 [INFO ] 5E0A88BCAEFD7B05 LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/ui' start... ip:0:0:0:0:0:0:0:1
+00:46:24.024 [INFO ] 8429A6E1EEDC93EE LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/favicon-32x32.png' start... ip:0:0:0:0:0:0:0:1
+00:46:24.024 [INFO ] 8429A6E1EEDC93EE LogInterceptor.java: input params: {"v":"2.9.2"}
+00:46:24.024 [INFO ] 8429A6E1EEDC93EE LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/favicon-32x32.png' end, cost 11ms
+00:46:24.024 [INFO ] 5E0A88BCAEFD7B05 LogInterceptor.java: input params: null
+00:46:24.024 [INFO ] 5E0A88BCAEFD7B05 LogInterceptor.java: output results: {"deepLinking":true,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"none","filter":false,"operationsSorter":"alpha","showExtensions":false,"tagsSorter":"alpha","validatorUrl":"","apisSorter":"alpha","jsonEditor":false,"showRequestHeaders":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"]}
+00:46:24.024 [INFO ] 5E0A88BCAEFD7B05 LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/ui' end, cost 65ms
+00:46:24.024 [INFO ] 3CD97129348D240E LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/security' start... ip:0:0:0:0:0:0:0:1
+00:46:24.024 [INFO ] 3CD97129348D240E LogInterceptor.java: input params: null
+00:46:24.024 [INFO ] 3CD97129348D240E LogInterceptor.java: output results: {}
+00:46:24.024 [INFO ] 3CD97129348D240E LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/security' end, cost 7ms
+00:46:24.024 [INFO ] 32E3C1FE18715F9A LogInterceptor.java: GET for '/springboot-demo/swagger-resources' start... ip:0:0:0:0:0:0:0:1
+00:46:24.024 [INFO ] 32E3C1FE18715F9A LogInterceptor.java: input params: null
+00:46:24.024 [INFO ] 32E3C1FE18715F9A LogInterceptor.java: output results: [{"name":"default","url":"/v2/api-docs","swaggerVersion":"2.0","location":"/v2/api-docs"}]
+00:46:24.024 [INFO ] 32E3C1FE18715F9A LogInterceptor.java: GET for '/springboot-demo/swagger-resources' end, cost 9ms
+00:46:24.024 [INFO ] CE9BED6B2A5AEFB6 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2' start... ip:0:0:0:0:0:0:0:1
+00:46:24.024 [INFO ] CE9BED6B2A5AEFB6 LogInterceptor.java: input params: null
+00:46:24.024 [INFO ] 09BAFCDD373837DE LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2' start... ip:0:0:0:0:0:0:0:1
+00:46:24.024 [INFO ] 09BAFCDD373837DE LogInterceptor.java: input params: null
+00:46:24.024 [INFO ] 09BAFCDD373837DE LogInterceptor.java: output results: 
+00:46:24.024 [INFO ] 09BAFCDD373837DE LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2' end, cost 5ms
+00:46:24.024 [INFO ] CE9BED6B2A5AEFB6 LogInterceptor.java: output results: 
+00:46:24.024 [INFO ] CE9BED6B2A5AEFB6 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2' end, cost 7ms
+00:46:25.025 [INFO ] 080BE2AD918C49EC LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2' start... ip:0:0:0:0:0:0:0:1
+00:46:25.025 [INFO ] 80B0E672C7447665 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2' start... ip:0:0:0:0:0:0:0:1
+00:46:25.025 [INFO ] 080BE2AD918C49EC LogInterceptor.java: input params: null
+00:46:25.025 [INFO ] 80B0E672C7447665 LogInterceptor.java: input params: null
+00:46:25.025 [INFO ] 080BE2AD918C49EC LogInterceptor.java: output results: 
+00:46:25.025 [INFO ] 80B0E672C7447665 LogInterceptor.java: output results: 
+00:46:25.025 [INFO ] 080BE2AD918C49EC LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2' end, cost 3ms
+00:46:25.025 [INFO ] 80B0E672C7447665 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2' end, cost 3ms
+00:46:25.025 [INFO ] C543990D03FE011A LogInterceptor.java: GET for '/springboot-demo/csrf' start... ip:0:0:0:0:0:0:0:1
+00:46:25.025 [INFO ] C543990D03FE011A LogInterceptor.java: input params: null
+00:46:25.025 [INFO ] C543990D03FE011A LogInterceptor.java: output results: 
+00:46:25.025 [INFO ] C543990D03FE011A LogInterceptor.java: GET for '/springboot-demo/csrf' end, cost 3ms
+00:46:25.025 [INFO ] AA27896D48C1FB57 LogInterceptor.java: GET for '/springboot-demo/error' start... ip:0:0:0:0:0:0:0:1
+00:46:25.025 [INFO ] AA27896D48C1FB57 LogInterceptor.java: input params: null
+00:46:25.025 [INFO ] AA27896D48C1FB57 LogInterceptor.java: GET for '/springboot-demo/error' end, cost 4ms
+01:13:52.052 [INFO ] 459D8E7EF91B91E2 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2' start... ip:0:0:0:0:0:0:0:1
+01:13:52.052 [INFO ] 459D8E7EF91B91E2 LogInterceptor.java: input params: null
+01:13:52.052 [INFO ] 459D8E7EF91B91E2 LogInterceptor.java: output results: 
+01:13:52.052 [INFO ] 459D8E7EF91B91E2 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2' end, cost 3ms
+01:13:54.054 [INFO ] F0B706597801300E LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2' start... ip:0:0:0:0:0:0:0:1
+01:13:54.054 [INFO ] F0B706597801300E LogInterceptor.java: input params: null
+01:13:54.054 [INFO ] F0B706597801300E LogInterceptor.java: output results: 
+01:13:54.054 [INFO ] F0B706597801300E LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2' end, cost 2ms
+01:27:04.004 [INFO ] 13ADD66F442F359A LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/ui' start... ip:0:0:0:0:0:0:0:1
+01:27:04.004 [INFO ] 13ADD66F442F359A LogInterceptor.java: input params: null
+01:27:04.004 [INFO ] 13ADD66F442F359A LogInterceptor.java: output results: {"deepLinking":true,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"none","filter":false,"operationsSorter":"alpha","showExtensions":false,"tagsSorter":"alpha","validatorUrl":"","apisSorter":"alpha","jsonEditor":false,"showRequestHeaders":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"]}
+01:27:04.004 [INFO ] 13ADD66F442F359A LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/ui' end, cost 4ms
+01:29:24.024 [INFO ] 5C77F7EB63D43CD9 LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/security' start... ip:0:0:0:0:0:0:0:1
+01:29:24.024 [INFO ] 5C77F7EB63D43CD9 LogInterceptor.java: input params: null
+01:29:24.024 [INFO ] 5C77F7EB63D43CD9 LogInterceptor.java: output results: {}
+01:29:24.024 [INFO ] 5C77F7EB63D43CD9 LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/security' end, cost 3ms
+01:30:32.032 [INFO ] B77F04C71689CE1E LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/security' start... ip:0:0:0:0:0:0:0:1
+01:30:32.032 [INFO ] B77F04C71689CE1E LogInterceptor.java: input params: null
+01:30:32.032 [INFO ] B77F04C71689CE1E LogInterceptor.java: output results: {}
+01:30:32.032 [INFO ] B77F04C71689CE1E LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/security' end, cost 3ms
+01:31:24.024 [INFO ] 645776A76F49E158 LogInterceptor.java: GET for '/springboot-demo/swagger-resources' start... ip:0:0:0:0:0:0:0:1
+01:31:24.024 [INFO ] 645776A76F49E158 LogInterceptor.java: input params: null
+01:31:24.024 [INFO ] 645776A76F49E158 LogInterceptor.java: output results: [{"name":"default","url":"/v2/api-docs","swaggerVersion":"2.0","location":"/v2/api-docs"}]
+01:31:24.024 [INFO ] 645776A76F49E158 LogInterceptor.java: GET for '/springboot-demo/swagger-resources' end, cost 3ms
+01:31:52.052 [INFO ] C9037E4F990B5CE8 LogInterceptor.java: GET for '/springboot-demo/swagger-ui.html' start... ip:0:0:0:0:0:0:0:1
+01:31:52.052 [INFO ] C9037E4F990B5CE8 LogInterceptor.java: input params: null
+01:31:52.052 [INFO ] C9037E4F990B5CE8 LogInterceptor.java: output results: 
+01:31:52.052 [INFO ] C9037E4F990B5CE8 LogInterceptor.java: GET for '/springboot-demo/swagger-ui.html' end, cost 2ms
+01:31:52.052 [INFO ] 8BF956C5E54A2754 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-bundle.js' start... ip:0:0:0:0:0:0:0:1
+01:31:52.052 [INFO ] 8BF956C5E54A2754 LogInterceptor.java: input params: {"v":"2.9.2"}
+01:31:52.052 [INFO ] A3B11738EC65C32F LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js' start... ip:0:0:0:0:0:0:0:1
+01:31:52.052 [INFO ] 540FE85DF0F19C43 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/springfox.js' start... ip:0:0:0:0:0:0:0:1
+01:31:52.052 [INFO ] A3B11738EC65C32F LogInterceptor.java: input params: {"v":"2.9.2"}
+01:31:52.052 [INFO ] 540FE85DF0F19C43 LogInterceptor.java: input params: {"v":"2.9.2"}
+01:31:52.052 [INFO ] 8BF956C5E54A2754 LogInterceptor.java: output results: 
+01:31:52.052 [INFO ] 8BF956C5E54A2754 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-bundle.js' end, cost 3ms
+01:31:52.052 [INFO ] A3B11738EC65C32F LogInterceptor.java: output results: 
+01:31:52.052 [INFO ] 540FE85DF0F19C43 LogInterceptor.java: output results: 
+01:31:52.052 [INFO ] A3B11738EC65C32F LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js' end, cost 3ms
+01:31:52.052 [INFO ] 540FE85DF0F19C43 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/springfox.js' end, cost 2ms
+01:31:53.053 [INFO ] 78F3B96EFE5BC1AF LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/ui' start... ip:0:0:0:0:0:0:0:1
+01:31:53.053 [INFO ] 78F3B96EFE5BC1AF LogInterceptor.java: input params: null
+01:31:53.053 [INFO ] 03639257D82A1369 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/favicon-32x32.png' start... ip:0:0:0:0:0:0:0:1
+01:31:53.053 [INFO ] 03639257D82A1369 LogInterceptor.java: input params: {"v":"2.9.2"}
+01:31:53.053 [INFO ] 78F3B96EFE5BC1AF LogInterceptor.java: output results: {"deepLinking":true,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"none","filter":false,"operationsSorter":"alpha","showExtensions":false,"tagsSorter":"alpha","validatorUrl":"","apisSorter":"alpha","jsonEditor":false,"showRequestHeaders":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"]}
+01:31:53.053 [INFO ] 78F3B96EFE5BC1AF LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/ui' end, cost 3ms
+01:31:53.053 [INFO ] 03639257D82A1369 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/favicon-32x32.png' end, cost 4ms
+01:31:53.053 [INFO ] 60122192CA24011A LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/security' start... ip:0:0:0:0:0:0:0:1
+01:31:53.053 [INFO ] 60122192CA24011A LogInterceptor.java: input params: null
+01:31:53.053 [INFO ] 60122192CA24011A LogInterceptor.java: output results: {}
+01:31:53.053 [INFO ] 60122192CA24011A LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/security' end, cost 3ms
+01:31:53.053 [INFO ] A622021365950C60 LogInterceptor.java: GET for '/springboot-demo/swagger-resources' start... ip:0:0:0:0:0:0:0:1
+01:31:53.053 [INFO ] A622021365950C60 LogInterceptor.java: input params: null
+01:31:53.053 [INFO ] A622021365950C60 LogInterceptor.java: output results: [{"name":"default","url":"/v2/api-docs","swaggerVersion":"2.0","location":"/v2/api-docs"}]
+01:31:53.053 [INFO ] A622021365950C60 LogInterceptor.java: GET for '/springboot-demo/swagger-resources' end, cost 2ms
+01:31:53.053 [INFO ] 599E2728A79403F0 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2' start... ip:0:0:0:0:0:0:0:1
+01:31:53.053 [INFO ] 599E2728A79403F0 LogInterceptor.java: input params: null
+01:31:53.053 [INFO ] 599E2728A79403F0 LogInterceptor.java: output results: 
+01:31:53.053 [INFO ] 73CF3CC42AD49568 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2' start... ip:0:0:0:0:0:0:0:1
+01:31:53.053 [INFO ] 73CF3CC42AD49568 LogInterceptor.java: input params: null
+01:31:53.053 [INFO ] 599E2728A79403F0 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2' end, cost 2ms
+01:31:53.053 [INFO ] 73CF3CC42AD49568 LogInterceptor.java: output results: 
+01:31:53.053 [INFO ] 73CF3CC42AD49568 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2' end, cost 3ms
+01:31:53.053 [INFO ] 7AC2D229F72F8605 LogInterceptor.java: GET for '/springboot-demo/csrf' start... ip:0:0:0:0:0:0:0:1
+01:31:53.053 [INFO ] 7AC2D229F72F8605 LogInterceptor.java: input params: null
+01:31:53.053 [INFO ] 7AC2D229F72F8605 LogInterceptor.java: output results: 
+01:31:53.053 [INFO ] 7AC2D229F72F8605 LogInterceptor.java: GET for '/springboot-demo/csrf' end, cost 4ms
+01:31:53.053 [INFO ] 40C14B41A3AA4329 LogInterceptor.java: GET for '/springboot-demo/error' start... ip:0:0:0:0:0:0:0:1
+01:31:53.053 [INFO ] 40C14B41A3AA4329 LogInterceptor.java: input params: null
+01:31:53.053 [INFO ] 40C14B41A3AA4329 LogInterceptor.java: GET for '/springboot-demo/error' end, cost 4ms
+01:31:53.053 [INFO ] F5C48161BDAD6B79 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2' start... ip:0:0:0:0:0:0:0:1
+01:31:53.053 [INFO ] F5C48161BDAD6B79 LogInterceptor.java: input params: null
+01:31:53.053 [INFO ] 696265C688DFEEB4 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2' start... ip:0:0:0:0:0:0:0:1
+01:31:53.053 [INFO ] 696265C688DFEEB4 LogInterceptor.java: input params: null
+01:31:53.053 [INFO ] F5C48161BDAD6B79 LogInterceptor.java: output results: 
+01:31:53.053 [INFO ] F5C48161BDAD6B79 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2' end, cost 2ms
+01:31:53.053 [INFO ] 696265C688DFEEB4 LogInterceptor.java: output results: 
+01:31:53.053 [INFO ] 696265C688DFEEB4 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2' end, cost 1ms
+01:43:06.006 [INFO ]  CommonFilter.java: [commonFilter] destroy...
+01:43:06.006 [INFO ]  StartupInfoLogger.java: Starting DemoApplication on lee with PID 7672 (D:\java\workspace2\springboot-demo\target\classes started by lee in D:\java\workspace2\springboot-demo)
+01:43:06.006 [DEBUG]  StartupInfoLogger.java: Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+01:43:06.006 [INFO ]  SpringApplication.java: The following profiles are active: dev
+01:43:07.007 [INFO ]  CommonFilter.java: [commonFilter] init...
+01:43:08.008 [INFO ]  StartupInfoLogger.java: Started DemoApplication in 2.432 seconds (JVM running for 3482.408)
+01:43:15.015 [INFO ] 759AB6A5DB138613 LogInterceptor.java: GET for '/springboot-demo/swagger-ui.html' start... ip:0:0:0:0:0:0:0:1
+01:43:15.015 [INFO ] 759AB6A5DB138613 LogInterceptor.java: input params: null
+01:43:15.015 [INFO ] 759AB6A5DB138613 LogInterceptor.java: output results: 
+01:43:15.015 [INFO ] 759AB6A5DB138613 LogInterceptor.java: GET for '/springboot-demo/swagger-ui.html' end, cost 2ms
+01:43:15.015 [INFO ] 56892CC288D7F848 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js' start... ip:0:0:0:0:0:0:0:1
+01:43:15.015 [INFO ] E76AE877DED5A715 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-bundle.js' start... ip:0:0:0:0:0:0:0:1
+01:43:15.015 [INFO ] 84BAB66C68C5A03D LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/springfox.js' start... ip:0:0:0:0:0:0:0:1
+01:43:15.015 [INFO ] 84BAB66C68C5A03D LogInterceptor.java: input params: {"v":"2.9.2"}
+01:43:15.015 [INFO ] E76AE877DED5A715 LogInterceptor.java: input params: {"v":"2.9.2"}
+01:43:15.015 [INFO ] 56892CC288D7F848 LogInterceptor.java: input params: {"v":"2.9.2"}
+01:43:15.015 [INFO ] 84BAB66C68C5A03D LogInterceptor.java: output results: 
+01:43:15.015 [INFO ] 56892CC288D7F848 LogInterceptor.java: output results: 
+01:43:15.015 [INFO ] E76AE877DED5A715 LogInterceptor.java: output results: 
+01:43:15.015 [INFO ] E76AE877DED5A715 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-bundle.js' end, cost 2ms
+01:43:15.015 [INFO ] 84BAB66C68C5A03D LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/springfox.js' end, cost 2ms
+01:43:15.015 [INFO ] 56892CC288D7F848 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js' end, cost 2ms
+01:43:16.016 [INFO ] A144EF1FF2886FE8 LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/ui' start... ip:0:0:0:0:0:0:0:1
+01:43:16.016 [INFO ] D0122F83667FEAE3 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/favicon-32x32.png' start... ip:0:0:0:0:0:0:0:1
+01:43:16.016 [INFO ] D0122F83667FEAE3 LogInterceptor.java: input params: {"v":"2.9.2"}
+01:43:16.016 [INFO ] A144EF1FF2886FE8 LogInterceptor.java: input params: null
+01:43:16.016 [INFO ] D0122F83667FEAE3 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/favicon-32x32.png' end, cost 4ms
+01:43:16.016 [INFO ] A144EF1FF2886FE8 LogInterceptor.java: output results: {"deepLinking":true,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"none","filter":false,"operationsSorter":"alpha","showExtensions":false,"tagsSorter":"alpha","validatorUrl":"","apisSorter":"alpha","jsonEditor":false,"showRequestHeaders":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"]}
+01:43:16.016 [INFO ] A144EF1FF2886FE8 LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/ui' end, cost 14ms
+01:43:16.016 [INFO ] E80A59B9F204DE97 LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/security' start... ip:0:0:0:0:0:0:0:1
+01:43:16.016 [INFO ] E80A59B9F204DE97 LogInterceptor.java: input params: null
+01:43:16.016 [INFO ] E80A59B9F204DE97 LogInterceptor.java: output results: {}
+01:43:16.016 [INFO ] E80A59B9F204DE97 LogInterceptor.java: GET for '/springboot-demo/swagger-resources/configuration/security' end, cost 4ms
+01:43:16.016 [INFO ] B82F405C5239A354 LogInterceptor.java: GET for '/springboot-demo/swagger-resources' start... ip:0:0:0:0:0:0:0:1
+01:43:16.016 [INFO ] B82F405C5239A354 LogInterceptor.java: input params: null
+01:43:16.016 [INFO ] B82F405C5239A354 LogInterceptor.java: output results: [{"name":"default","url":"/v2/api-docs","swaggerVersion":"2.0","location":"/v2/api-docs"}]
+01:43:16.016 [INFO ] B82F405C5239A354 LogInterceptor.java: GET for '/springboot-demo/swagger-resources' end, cost 2ms
+01:43:16.016 [INFO ] 5E0C3012B6EDDB0B LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2' start... ip:0:0:0:0:0:0:0:1
+01:43:16.016 [INFO ] 5E0C3012B6EDDB0B LogInterceptor.java: input params: null
+01:43:16.016 [INFO ] AC05CCD6456E5EE0 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2' start... ip:0:0:0:0:0:0:0:1
+01:43:16.016 [INFO ] AC05CCD6456E5EE0 LogInterceptor.java: input params: null
+01:43:16.016 [INFO ] 5E0C3012B6EDDB0B LogInterceptor.java: output results: 
+01:43:16.016 [INFO ] 5E0C3012B6EDDB0B LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2' end, cost 3ms
+01:43:16.016 [INFO ] AC05CCD6456E5EE0 LogInterceptor.java: output results: 
+01:43:16.016 [INFO ] AC05CCD6456E5EE0 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2' end, cost 5ms
+01:43:16.016 [INFO ] 1D92888BF3617553 LogInterceptor.java: GET for '/springboot-demo/csrf' start... ip:0:0:0:0:0:0:0:1
+01:43:16.016 [INFO ] 1D92888BF3617553 LogInterceptor.java: input params: null
+01:43:16.016 [INFO ] 1D92888BF3617553 LogInterceptor.java: output results: 
+01:43:16.016 [INFO ] 1D92888BF3617553 LogInterceptor.java: GET for '/springboot-demo/csrf' end, cost 2ms
+01:43:16.016 [INFO ] 0AD09B79DB3E07CB LogInterceptor.java: GET for '/springboot-demo/error' start... ip:0:0:0:0:0:0:0:1
+01:43:16.016 [INFO ] 0AD09B79DB3E07CB LogInterceptor.java: input params: null
+01:43:16.016 [INFO ] 0AD09B79DB3E07CB LogInterceptor.java: GET for '/springboot-demo/error' end, cost 3ms
+01:43:16.016 [INFO ] 39B676DBCA2D4BFB LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2' start... ip:0:0:0:0:0:0:0:1
+01:43:16.016 [INFO ] 3CE51F5B0FE3B601 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2' start... ip:0:0:0:0:0:0:0:1
+01:43:16.016 [INFO ] 3CE51F5B0FE3B601 LogInterceptor.java: input params: null
+01:43:16.016 [INFO ] 39B676DBCA2D4BFB LogInterceptor.java: input params: null
+01:43:16.016 [INFO ] 39B676DBCA2D4BFB LogInterceptor.java: output results: 
+01:43:16.016 [INFO ] 3CE51F5B0FE3B601 LogInterceptor.java: output results: 
+01:43:16.016 [INFO ] 39B676DBCA2D4BFB LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2' end, cost 2ms
+01:43:16.016 [INFO ] 3CE51F5B0FE3B601 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2' end, cost 2ms
+01:43:28.028 [INFO ] 500E478A2AC5F707 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2' start... ip:0:0:0:0:0:0:0:1
+01:43:28.028 [INFO ] 500E478A2AC5F707 LogInterceptor.java: input params: null
+01:43:28.028 [INFO ] 500E478A2AC5F707 LogInterceptor.java: output results: 
+01:43:28.028 [INFO ] 500E478A2AC5F707 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2' end, cost 2ms
+01:43:30.030 [INFO ] E40F3AD60F0F53F9 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2' start... ip:0:0:0:0:0:0:0:1
+01:43:30.030 [INFO ] E40F3AD60F0F53F9 LogInterceptor.java: input params: null
+01:43:30.030 [INFO ] E40F3AD60F0F53F9 LogInterceptor.java: output results: 
+01:43:30.030 [INFO ] E40F3AD60F0F53F9 LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2' end, cost 2ms
+01:43:42.042 [INFO ] D60CDAE315380662 LogInterceptor.java: GET for '/springboot-demo/mqtest/m5' start... ip:0:0:0:0:0:0:0:1
+01:43:42.042 [INFO ] D60CDAE315380662 LogInterceptor.java: input params: {"name":"steven"}
+01:43:42.042 [INFO ] D60CDAE315380662 MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=8c0c03bac422f3c21728aaf6d490c448, type=1, delayTime=0, data=UserInfo(id=0, name=steven0, age=10, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:43:42.042 [INFO ] D60CDAE315380662 MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=b5b3a93fd87fc3541010f57919901684, type=1, delayTime=10, data=UserInfo(id=1, name=steven1, age=11, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:43:42.042 [INFO ] D60CDAE315380662 MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=b68a163f41274c67494454f0977f15d1, type=1, delayTime=20, data=UserInfo(id=2, name=steven2, age=12, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:43:42.042 [INFO ] D60CDAE315380662 MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=bfbcf2ccc7f2c43fdca45eacffdd19ef, type=1, delayTime=30, data=UserInfo(id=3, name=steven3, age=13, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:43:42.042 [INFO ] D60CDAE315380662 MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=0f546553217fece12709c363589e6737, type=1, delayTime=40, data=UserInfo(id=4, name=steven4, age=14, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:43:42.042 [INFO ] D60CDAE315380662 MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=7dba60bc7149f302ac91e2fb447250cc, type=1, delayTime=50, data=UserInfo(id=5, name=steven5, age=15, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:43:42.042 [INFO ] D60CDAE315380662 MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=7670da47cef9099ade83a003ac8ea820, type=1, delayTime=60, data=UserInfo(id=6, name=steven6, age=16, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:43:42.042 [INFO ] D60CDAE315380662 MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=cbd5f19cfabd01f7cfee26fb76ff8c0f, type=1, delayTime=70, data=UserInfo(id=7, name=steven7, age=17, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:43:42.042 [INFO ] D60CDAE315380662 MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=1700c1714f4b59f75533ea682a02b50b, type=1, delayTime=80, data=UserInfo(id=8, name=steven8, age=18, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:43:42.042 [INFO ] D60CDAE315380662 MessageDelayQueue.java: Send to delay queue: mission=DelayMission(id=59ef64b51d2173479a4217fd79788b71, type=1, delayTime=90, data=UserInfo(id=9, name=steven9, age=19, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:43:42.042 [INFO ] D60CDAE315380662 LogInterceptor.java: output results: {"code":200,"msg":"success"}
+01:43:42.042 [INFO ] D60CDAE315380662 LogInterceptor.java: GET for '/springboot-demo/mqtest/m5' end, cost 31ms
+01:43:42.042 [INFO ]  DelayQueueListener1.java: delay queue1 receive: DelayMission(id=8c0c03bac422f3c21728aaf6d490c448, type=1, delayTime=0, data=UserInfo(id=0, name=steven0, age=10, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:43:42.042 [INFO ] 0DC006743849F63F LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2' start... ip:0:0:0:0:0:0:0:1
+01:43:42.042 [INFO ] 0DC006743849F63F LogInterceptor.java: input params: null
+01:43:42.042 [INFO ] 0DC006743849F63F LogInterceptor.java: output results: 
+01:43:42.042 [INFO ] 0DC006743849F63F LogInterceptor.java: GET for '/springboot-demo/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2' end, cost 1ms
+01:43:52.052 [INFO ]  DelayQueueListener2.java: delay queue2 receive: DelayMission(id=b5b3a93fd87fc3541010f57919901684, type=1, delayTime=10, data=UserInfo(id=1, name=steven1, age=11, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:44:02.002 [INFO ]  DelayQueueListener1.java: delay queue1 receive: DelayMission(id=b68a163f41274c67494454f0977f15d1, type=1, delayTime=20, data=UserInfo(id=2, name=steven2, age=12, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:44:12.012 [INFO ]  DelayQueueListener2.java: delay queue2 receive: DelayMission(id=bfbcf2ccc7f2c43fdca45eacffdd19ef, type=1, delayTime=30, data=UserInfo(id=3, name=steven3, age=13, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:44:22.022 [INFO ]  DelayQueueListener1.java: delay queue1 receive: DelayMission(id=0f546553217fece12709c363589e6737, type=1, delayTime=40, data=UserInfo(id=4, name=steven4, age=14, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:44:32.032 [INFO ]  DelayQueueListener2.java: delay queue2 receive: DelayMission(id=7dba60bc7149f302ac91e2fb447250cc, type=1, delayTime=50, data=UserInfo(id=5, name=steven5, age=15, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:44:42.042 [INFO ]  DelayQueueListener1.java: delay queue1 receive: DelayMission(id=7670da47cef9099ade83a003ac8ea820, type=1, delayTime=60, data=UserInfo(id=6, name=steven6, age=16, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:44:52.052 [INFO ]  DelayQueueListener2.java: delay queue2 receive: DelayMission(id=cbd5f19cfabd01f7cfee26fb76ff8c0f, type=1, delayTime=70, data=UserInfo(id=7, name=steven7, age=17, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:45:02.002 [INFO ]  DelayQueueListener1.java: delay queue1 receive: DelayMission(id=1700c1714f4b59f75533ea682a02b50b, type=1, delayTime=80, data=UserInfo(id=8, name=steven8, age=18, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+01:45:12.012 [INFO ]  DelayQueueListener2.java: delay queue2 receive: DelayMission(id=59ef64b51d2173479a4217fd79788b71, type=1, delayTime=90, data=UserInfo(id=9, name=steven9, age=19, pwd=null, phone=null, createTime=null, updateTime=null), createTime=Sat May 04 01:43:42 CST 2019, createBy=system)
+02:04:02.002 [INFO ]  CommonFilter.java: [commonFilter] destroy...
+02:04:03.003 [INFO ]  StartupInfoLogger.java: Starting DemoApplication on lee with PID 7672 (D:\java\workspace2\springboot-demo\target\classes started by lee in D:\java\workspace2\springboot-demo)
+02:04:03.003 [DEBUG]  StartupInfoLogger.java: Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+02:04:03.003 [INFO ]  SpringApplication.java: The following profiles are active: dev
+02:04:03.003 [INFO ]  CommonFilter.java: [commonFilter] init...
+02:04:04.004 [INFO ]  CommonFilter.java: [commonFilter] destroy...
+02:06:04.004 [INFO ]  StartupInfoLogger.java: Starting DemoApplication on lee with PID 7672 (D:\java\workspace2\springboot-demo\target\classes started by lee in D:\java\workspace2\springboot-demo)
+02:06:04.004 [DEBUG]  StartupInfoLogger.java: Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+02:06:04.004 [INFO ]  SpringApplication.java: The following profiles are active: dev
+02:06:05.005 [INFO ]  CommonFilter.java: [commonFilter] init...
+02:06:07.007 [INFO ]  StartupInfoLogger.java: Started DemoApplication in 2.789 seconds (JVM running for 4861.253)
+02:06:55.055 [INFO ]  CommonFilter.java: [commonFilter] destroy...
+02:07:06.006 [INFO ]  StartupInfoLogger.java: Starting DemoApplication on lee with PID 12472 (D:\java\workspace2\springboot-demo\target\classes started by lee in D:\java\workspace2\springboot-demo)
+02:07:06.006 [DEBUG]  StartupInfoLogger.java: Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+02:07:06.006 [INFO ]  SpringApplication.java: The following profiles are active: dev
+02:07:08.008 [INFO ]  CommonFilter.java: [commonFilter] init...
+02:07:12.012 [INFO ]  StartupInfoLogger.java: Started DemoApplication in 6.988 seconds (JVM running for 8.01)
+02:08:07.007 [INFO ]  CommonFilter.java: [commonFilter] destroy...

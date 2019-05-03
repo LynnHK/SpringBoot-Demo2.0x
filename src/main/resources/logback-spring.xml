@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+	
+	<!-- <springProfile name=""></springProfile> -->
+	
+	<springProperty scope="context" name="log_path" source="logback.logs.path"/>
+	<springProperty scope="context" name="trace_id" source="logback.logs.traceid"/>
+
+	<appender name="consoleApp" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>  
+            <pattern>%d{HH:mm:ss.sss} [%-5p] %X{${trace_id}} (%F:%L\): %m%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <appender name="demo" class="ch.qos.logback.core.rolling.RollingFileAppender">  
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">  
+            <FileNamePattern>${log_path}/demo_%d{yyyy-MM-dd}.log</FileNamePattern>  
+            <MaxHistory>10</MaxHistory> <!-- 保存10天的日志文件 --> 
+        </rollingPolicy>  
+        <encoder>  
+            <!-- <pattern>%d{HH:mm:ss.sss} [%thread] [%-5p] %F: %m%n</pattern> -->
+            <pattern>%d{HH:mm:ss.sss} [%-5p] %X{${trace_id}} %F: %m%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>  
+    </appender> 
+    
+	<!-- name包必须能够扫描到所有类，包括启动类 -->  
+    <logger name="com.example.demo" level="DEBUG">  
+        <appender-ref ref="demo" />  
+    </logger>
+    <root level="INFO">  
+        <appender-ref ref="consoleApp" />  
+    </root>  
+</configuration>

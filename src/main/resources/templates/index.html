@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>文件上传实例，可直接访问，index也是welcome page</title>
+</head>
+<body>
+	<h1>文件上传实例</h1>
+	<form method="post" action="/springboot-demo/file/upload" enctype="multipart/form-data">
+    	选择一个文件:<br/>
+    	文件名：<input type="text" name="name" /><br/>
+    	文件：<input type="file" name="file" /><br/>
+	    <br/><br/>
+	    <input type="submit" value="上传" />
+	</form>
+</body>
+</html>

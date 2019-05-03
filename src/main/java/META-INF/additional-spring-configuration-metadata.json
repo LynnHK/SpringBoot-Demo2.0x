@@ -1,0 +1,47 @@
+{"properties": [
+  {
+    "name": "web.temp.file-path",
+    "type": "java.lang.String",
+    "description": "A description for 'web.temp.file-path'"
+  },
+  {
+    "name": "maxPoolSize",
+    "type": "java.lang.String",
+    "description": "A description for 'maxPoolSize'"
+  },
+  {
+    "name": "corePoolSize",
+    "type": "java.lang.String",
+    "description": "A description for 'corePoolSize'"
+  },
+  {
+    "name": "queueCapacity",
+    "type": "java.lang.String",
+    "description": "A description for 'queueCapacity'"
+  },
+  {
+    "name": "logback.logs.path",
+    "type": "java.lang.String",
+    "description": "A description for 'logback.logs.path'"
+  },
+  {
+    "name": "injection.map",
+    "type": "java.lang.String",
+    "description": "A description for 'injection.map'"
+  },
+  {
+    "name": "upload.file.types",
+    "type": "java.lang.String",
+    "description": "A description for 'upload.file.types'"
+  },
+  {
+    "name": "logback.logs.traceid",
+    "type": "java.lang.String",
+    "description": "A description for 'logback.logs.traceid'"
+  },
+  {
+    "name": "task.timing.cron",
+    "type": "java.lang.String",
+    "description": "A description for 'task.timing.cron'"
+  }
+]}

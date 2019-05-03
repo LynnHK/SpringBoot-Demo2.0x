@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.dao.FriendDAO">
+	<resultMap id="FriendInfo" type="com.example.demo.entity.FriendInfo">
+		<result column="id" property="id"/>
+		<result column="uin" property="uin"/>
+		<result column="user_name" property="userName"/>
+		<result column="nick_name" property="nickName"/>
+		<result column="remark_name" property="remarkName"/>
+		<result column="head_img_url" property="headImgUrl"/>
+		<result column="contact_flag" property="contactFlag"/>
+		<result column="signature" property="signature"/>
+		<result column="verify_flag" property="verifyFlag"/>
+		<result column="is_owner" property="isOwner"/>
+		<result column="sex" property="sex"/>
+		<result column="city" property="city"/>
+		<result column="province" property="province"/>
+		<result column="star_friend" property="starFriend"/>
+		<result column="delflag" property="delflag"/>
+		<result column="date_created" property="dateCreated"/>
+		<result column="created_by" property="createdBy"/>
+		<result column="date_updated" property="dateUpdated"/>
+		<result column="updated_by" property="updatedBy"/>
+	</resultMap>
+	
+	<sql id="friend_base_column_list">
+		id, uin, user_name, nick_name, remark_name, delflag, date_created, created_by, date_updated, updated_by
+	</sql>
+	
+	<select id="getAll" parameterType="String" resultMap="FriendInfo">
+		select 
+			<include refid="friend_base_column_list"/>
+		  from wechat_friend_info f
+		 where f.uin = #{uin}
+        order by f.date_updated desc
+	</select>
+</mapper>
