@@ -1,5 +1,7 @@
 HELP.md
-/target/
+/target/  
+/app_logs/  
+/app_temps/  
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
